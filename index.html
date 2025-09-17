@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Flashcards</h1>
+
+    <!-- Progress bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="progress-text" id="progress-text">1 / 5</div>
+
+    <!-- Flashcard -->
+    <div class="flashcard" id="flashcard">
+        <div class="card-inner" id="card-inner">
+            <div class="card-face front" id="card-front"></div>
+            <div class="card-face back" id="card-back"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="buttons">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
